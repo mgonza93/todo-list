@@ -1,0 +1,81 @@
+/* styles App */
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.create {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #007bff !important;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.delete {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #dc3545 !important;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.update {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #ffc107 !important;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+
+li input[type="text"] {
+    flex: 1;
+    margin-right: 10px;
+}
+
+li button {
+    background-color: #ccc;
+    color: #fff;
+}
+
+.error {
+    color: #dc3545 !important;
+    font-size: 14px;
+}
